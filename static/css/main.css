@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    border-width: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #263E56;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    padding: 0.598rem 1.154rem;
+    border-radius: 0.313rem;
+}
+
+.btn-outline {
+    border: 1px solid #B3DCEA;
+}
+
+.col-grow {
+    min-width: 344px
+}
+
+.col {
+    width: 100%;
+}
+
+.justify-content-start {
+    justify-content: start !important;
+}
+
+/* HEADER - BEGIN */
+header {
+    margin: 2.036rem 0;
+}
+
+.cta-group {
+    margin-top: 3.171rem;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+nav .navigation-links {
+    font-size: 0.881rem;
+}
+
+nav .authentication-links {
+    font-weight: 600;
+    font-size: 0.783rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 2.32rem;
+    padding-left: 0;
+}
+
+nav a {
+    color: #4D6175;
+    text-decoration: none;
+}
+
+/* HEADER - END */
+
+/* HERO - BEGIN */
+#hero {
+    background: linear-gradient(180deg, #D6F2FF 0%, #E3F5FE 100%);
+    border-radius: 1.565rem;
+    padding: 7.14rem 5.48rem;
+}
+
+#hero .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero .btn {
+    margin: 0 0.501rem;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 0.720rem 1.378rem;
+    font-weight: 600;
+    padding: 0.846rem 1.91rem;
+}
+
+#hero .btn.buy {
+    background-color: #263E56;
+    border-color: #263E56;
+    color: #fff;
+    margin-left: 0;
+    /* border-color: inherit; */
+}
+
+#hero .extra-info {
+    margin-top: 2.505rem;
+    font-size: 1.126rem;
+    font-weight: 400;
+}
+
+#hero .btn.btn-outline {
+    background-color: #E5F6FF;
+}
+
+#hero .hero-image {
+    /* max-width: 23.048rem; */
+    width: 100%;
+    height: 24.488rem;
+    /* height: 24.488rem; */
+    background: url("https://via.placeholder.com/630x400&text=Image");
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    width: 435px;
+}
+
+#hero h2 {
+    font-weight: 700;
+    font-size: 3.131rem;
+}
+
+.left h4 {
+    margin-top: 1.666rem;
+    font-weight: 500;
+    font-size: 1.315rem;
+}
+
+/* HERO - END */
+
+/* PARTNERS - BEGIN */
+.partners .attention {
+    font-weight: 500;
+    font-size: 1.566rem;
+    color: #263E56;
+    margin-top: 6.545rem;
+    text-align: center;
+}
+
+.partners .companies {
+    margin-top: 3.418rem;
+    justify-content: center;
+    column-gap: 4rem;
+}
+
+/* PARTNERS - END */
+
+/* IMPORTANT - BEGIN */
+.important .heading-lg {
+    margin-top: 7.422rem;
+    font-size: 2.818rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.important p {
+    font-size: 1.128rem;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 31.75rem;
+    margin-top: 1.293rem;
+}
+
+.important .cards {
+    justify-content: space-between;
+    column-gap: 4.823rem;
+    margin-top: 4.579rem;
+}
+
+.important .card {
+    min-height: 23.987rem;
+    width: 100%;
+    border-radius: 2.036rem;
+    position: relative;
+}
+
+.card-orange {
+    background-color: #FFCBAE;
+}
+
+.card-red {
+    background-color: #FEDCDC;
+}
+
+.card-purple {
+    background-color: #E7DCFE;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 15.075rem;
+}
+
+.card .title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.253rem;
+    top: 85%;
+    padding-left: 2.568rem;
+}
+
+/* IMPORTANT - END */
+
+/* FOOTER - BEGIN */
+footer {
+    margin-top: 9.126rem;
+    font-size: 0.877rem;
+}
+
+footer .container hr {
+    margin-top: 2.947rem;
+    border-top: 1px solid;
+    color: #D0E2ED;
+}
+
+footer .flex {
+    column-gap: 1.736rem;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 1.096rem;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #263E56;
+}
+
+.copyright {
+    margin: 1.607rem 0;
+    text-align: center;
+    font-weight: 400;
+    color: #263E56;
+}
+
+/* FOOTER - END */
