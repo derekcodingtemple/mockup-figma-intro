@@ -1,3 +1,7 @@
+:root {
+    --themeColor: #263E56;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +12,7 @@ button {
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #263E56;
+    color: var(--themeColor);
     font-weight: 500;
 }
 
@@ -78,6 +82,10 @@ nav a {
     text-decoration: none;
 }
 
+nav .navigation-links a:hover, footer a:hover {
+    border-bottom: 1px solid var(--themeColor);
+}
+
 /* HEADER - END */
 
 /* HERO - BEGIN */
@@ -102,8 +110,8 @@ nav a {
 }
 
 #hero .btn.buy {
-    background-color: #263E56;
-    border-color: #263E56;
+    background-color: var(--themeColor);
+    border-color: var(--themeColor);
     color: #fff;
     margin-left: 0;
     /* border-color: inherit; */
@@ -125,6 +133,7 @@ nav a {
     height: 24.488rem;
     /* height: 24.488rem; */
     background: url("https://via.placeholder.com/630x400&text=Image");
+    background-size: contain;
 }
 
 .left, .right {
@@ -152,7 +161,7 @@ nav a {
 .partners .attention {
     font-weight: 500;
     font-size: 1.566rem;
-    color: #263E56;
+    color: var(--themeColor);
     margin-top: 6.545rem;
     text-align: center;
 }
@@ -250,16 +259,21 @@ footer h3 {
     font-size: 1.096rem;
 }
 
-footer ul a {
+footer ul a, footer a {
     text-decoration: none;
-    color: #263E56;
+    color: var(--themeColor);
+}
+
+footer ul a:hover {
+    border-bottom: 1px solid;
+    color: var(--themeColor);
 }
 
 .copyright {
     margin: 1.607rem 0;
     text-align: center;
     font-weight: 400;
-    color: #263E56;
+    color: var(--themeColor);
 }
 
 /* FOOTER - END */
